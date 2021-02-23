@@ -39,7 +39,9 @@ None
 * Ivan Petrichenko Javascript and JavaScript Practice (without React, im still Learning) [Udemy](https://www.udemy.com/course/javascript_full/)
     > [Project Food](https://github.com/NursultanFront/Project-Food)
 * Ivan Petrichenko Javascript [Udemy](https://www.udemy.com/course/javascript_practice/)
-    > [winodw](https://github.com/NursultanFront/window)
+    > [window](https://github.com/NursultanFront/window)
+* Alexandr Luschenko - Basis Javascript Tasks [itgid](https://itgid.info/course/javascript-2)
+    > [js tasks](https://github.com/NursultanFront/JS-Tasks)
 
 
 ***
