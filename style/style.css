@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+/****Commons***/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.items-title {
+    margin-bottom: 30px;
+}
+
+.lists__item + .lists__item {
+    margin-top: 10px;
+}
+
+.lists__item a {
+    text-decoration: none;
+}
+
+.lists__item a:hover {
+    text-decoration: underline;
+}
+
+/*****Header*******/
+
+.header {
+    background-color: black;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 25px 50px;
+}
+
+/*****Main Info*******/
+
+.main-info {
+    padding: 50px 0px;
+    background-color: rgb(105, 102, 102);
+}
+
+.main-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*****Education and Language*******/
+.education,
+.language {
+    margin-top: 40px;
+}
+
+/*****About Me*******/
+
+.about-me {
+    background-color: rgb(105, 102, 102);
+}
+
+.about-me {
+    padding: 10px 0px 30px;
+}
+.about-me-wrapper {
+    text-align: center;
+}
+
+.about-me-wrapper__title {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.about-me-wrapper__title::before {
+    display: block;
+    content: "";
+    width: 300px;
+    border-bottom: 1px solid whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.about-me-wrapper__title::after {
+    display: block;
+    content: "";
+    width: 300px;
+    border-bottom: 1px solid whitesmoke;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+/*****Footer*******/
+
+.footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer-list {
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-info__links img {
+    width: 70px;
+    height: 70px;
+}
+
+.youtube img {
+    width: 100px;
+    background-color: whitesmoke;
+}
